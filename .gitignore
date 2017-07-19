@@ -1,6 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
+wsgi.py
+db.sqlite3
+media/
+static/js/googleanalytics.js
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,7 +13,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.Python
+.Pythonls
 env/
 build/
 develop-eggs/
@@ -57,7 +61,7 @@ local_settings.py
 
 # Flask stuff:
 instance/
-.webassets-cache
+.webassets-cachegit
 
 # Scrapy stuff:
 .scrapy
