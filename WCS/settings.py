@@ -25,7 +25,15 @@ SECRET_KEY = '5zy@nfh0qrifjt^n75bz*@&bniuslqbox^5&7tm8%lvqch1&oy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'http://www.whitecanvassoft.com/',
+    'http://whitecanvassoft.com/',
+    'www.whitecanvassoft.com',
+    'whitecanvassoft.com',
+    '139.162.45.141'
+]
 
 
 # Application definition
